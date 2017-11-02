@@ -1,3 +1,9 @@
+Code Academy project features spotify Api search song/album/artist and populates results. Add/Delete songs in the results and save playlist to account. 
+
+Toast courtesy of NPM react-toastify:
+https://www.npmjs.com/package/react-toastify#installation
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

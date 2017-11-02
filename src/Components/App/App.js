@@ -59,7 +59,7 @@ class App extends React.Component {
         playlistName: 'New Playlist',
         playlistTracks: []
       });
-    toast("Playlist Saved to Spotify-- Get Jammin'");
+    toast("Playlist Saved to Spotify. Get Jammin'");
     });
   }
 
