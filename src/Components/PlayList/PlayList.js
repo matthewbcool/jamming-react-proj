@@ -1,10 +1,8 @@
 import React from 'react';
-
 import './PlayList.css';
 import 'react-toastify/dist/ReactToastify.min.css';
-
 import TrackList from '../TrackList/TrackList';
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer} from 'react-toastify';
 
 class PlayList extends React.Component {
   constructor(props) {

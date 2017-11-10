@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import 'react-toastify/dist/ReactToastify.min.css';
 import SearchBar from '../SearchBar/SearchBar';
 import SearchResults from '../SearchResults/SearchResults';
-import TrackList from '../TrackList/TrackList';
 import PlayList from '../PlayList/PlayList';
 import Spotify from '../../utl/Spotify';
-import { ToastContainer, toast } from 'react-toastify';
+import {toast} from 'react-toastify';
 
 
 
@@ -32,6 +31,12 @@ class App extends React.Component {
       this.setState({searchResults: searchResults});
     });
     console.log(term);
+  }
+
+  handleKeyPress(e) {
+    if (e.key === 'Enter') {
+      console.log('do validate');
+    }
   }
 
   addTrack(track) {
